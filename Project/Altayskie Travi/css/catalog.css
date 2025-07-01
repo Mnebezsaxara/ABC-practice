@@ -1,0 +1,98 @@
+.shop {
+    margin: 50px 0 90px 0;
+}
+
+.shop__header {
+    position: relative;
+}
+.shop__title {
+    font-size: 34px;
+    font-weight: 600;
+    color: #414141;
+}
+.shop__header::after {
+    position: absolute;
+    z-index: 3;
+    content: "";
+    left: 0;
+    bottom: -10px;
+    background-color: #d5d5d5;
+    opacity: 0.7;
+    height: 1px;
+    width: 100%;
+}
+.shop-leaf {
+    width: 58px;
+    height: 58px;
+    position: absolute;
+    right: 0;
+    bottom: -32px;
+    z-index: 5;
+}
+.shop-content {
+    margin-top: 50px;
+    display: flex;
+    gap: 40px;
+}
+.shop__filter {
+    width: 45%;
+    border: 1px solid #e5e5e5;
+    border-radius: 5px;
+    height: 625px;
+}
+.filter-list {
+    list-style: none;
+}
+.filter-list li {
+    position: relative;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.filter-list li::after {
+    position: absolute;
+    content: "";
+    width: 244px;
+    background-color: #e5e5e5;
+    height: 1px;
+    left: 19px;
+    bottom: 0;
+}
+.filter-list li:last-child::after {
+    display: none;
+}
+
+.filter-list li span {
+    color: #555555;
+    font-weight: 400;
+}
+
+.filter {
+    padding: 10px;
+    cursor: pointer;
+}
+.filter.active {
+    color: #1a5b3d;
+    font-weight: bold;
+}
+
+.products-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+}
+.pagination {
+    margin-top: 40px;
+    display: flex;
+    gap: 10px;
+}
+.pagination button {
+    padding: 8px 14px;
+    cursor: pointer;
+}
+.pagination button.active {
+    background-color: #1a5b3d;
+    color: #fff;
+    border-radius: 6px;
+}

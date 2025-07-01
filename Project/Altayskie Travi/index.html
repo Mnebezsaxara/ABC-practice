@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Алтайские травы</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="nav-top">
+                <div class="nav-top__content">
+                    <a href="index.html"><img src="images/logo.png" alt="Logo" class="logo"></a>
+                    <div class="search-btn__container">
+                        <input type="text" class="search-btn" placeholder="Поиск по сайту">
+                        <svg class="search-icon" width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M7.20026 2.95226C4.37143 2.95226 2.13341 5.16939 2.13341 7.83729C2.13341 10.5052 4.37143 12.7223 7.20026 12.7223C10.0291 12.7223 12.2671 10.5052 12.2671 7.83729C12.2671 5.16939 10.0291 2.95226 7.20026 2.95226ZM0 7.83729C0 3.93108 3.25415 0.818848 7.20026 0.818848C11.1464 0.818848 14.4005 3.93108 14.4005 7.83729C14.4005 11.7435 11.1464 14.8557 7.20026 14.8557C3.25415 14.8557 0 11.7435 0 7.83729Z" fill="#D5D5D5"/>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M14.8051 16.0403L11.605 12.9351L13.4621 11.0212L16.6622 14.1265L14.8051 16.0403Z" fill="#D5D5D5"/>
+                        </svg>
+                    </div>
+                    <div class="icons">
+                        <img src="images/gmp.png" alt="gmp">
+                        <img src="images/ISO.png" alt="iso">
+                    </div>
+                </div>
+            </div>
+            <div class="nav-bottom">
+            <nav class="nav">
+                <a href="catalog.html">
+                    <button class="header-btn">
+                        <svg class="catalog-menu" width="21" height="17" viewBox="0 0 21 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect width="20.9194" height="2.83076" rx="1" transform="matrix(-1 0 0 1 20.9194 0)" fill="white"/>
+                        <rect width="20.9192" height="2.83076" rx="1" transform="matrix(-1 0 0 1 20.9194 6.83228)" fill="white"/>
+                        <rect width="20.9192" height="2.83076" rx="1" transform="matrix(-1 0 0 1 20.9194 13.665)" fill="white"/>
+                        </svg>
+                        Каталог товаров
+                    </button>
+                </a>
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="pharmacy.html" class="nav-link">Где купить</a></li>
+                    <li class="nav-item"><a href="blog.html" class="nav-link">Будни бренда</a></li>
+                    <li class="nav-item"><a href="aboutUs.html" class="nav-link">О нас</a></li>
+                </ul>
+            </nav>
+            <div class="language"><span class="kaz-lng">Kaz</span> <span> / </span><span class="ru-lng active">Rus</span></div>
+            </div>
+        </div>
+        
+    </header>
+<section class="hero">
+    <div class="swiper">
+        <div class="swiper-wrapper">
+
+            <!-- Слайд 1 -->
+            <div class="swiper-slide">
+                <div class="hero__content container">
+                    <div class="hero__text">
+                        <h1>Алтайские травы</h1>
+                        <p>Мини-описание. Это текст о компании. Он необходим 
+                        для дальнейшего продвижения Вашего сайта. Вам 
+                        будет необходимо предоставить исходные данные, 
+                        по которым наши копирайтеры составят правильный текст.</p>
+                        <a href="#" class="hero__btn">Подробнее</a>
+                    </div>
+                </div>
+            </div>
+
+          
+            <div class="swiper-slide">
+                <div class="hero__content container">
+                    <div class="hero__text">
+                        <h1>Натуральные сборы</h1>
+                        <p>Полезные травы с Алтая — только у нас!</p>
+                        <a href="#" class="hero__btn">Узнать больше</a>
+                    </div>
+                </div>
+            </div>
+
+
+              <!-- Слайд 3 -->
+            <div class="swiper-slide">
+                <div class="hero__content container">
+                    <div class="hero__text">
+                        <h1>Натуральные сборы</h1>
+                        <p>Полезные травы с Алтая — только у нас!</p>
+                        <a href="#" class="hero__btn">Узнать больше</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    <!-- Пагинация -->
+    <div class="swiper-pagination"></div>
+  </div>
+</section>
+
+<section class="features">
+    <div class="container">
+        <div class="cards">
+            <div class="card">
+                <img src="images/nurse.png" alt="" class="card-img">
+                <p class="card-desc">Разработано экспертами 
+                в области питания</p>
+            </div>
+            <div class="card">
+                <img src="images/grass-proccesing.png" alt="" class="card-img">
+                <p class="card-desc">Натуральные ингредиенты: овощи, фрукты и целебные травы</p>
+            </div>
+            <div class="card">
+                <img src="images/settings.png" alt="" class="card-img">
+                <p class="card-desc">Эффективность применения доказана 25-летним опытом</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="products">
+    <div class="container">
+        <h2 class="products-title">Наша продукция</h2>
+        <div class="product-cards">
+            <div class="product-card">
+                <img src="images/product-img-1.png" alt="" class="product-img contain">
+            </div>
+            <div class="product-card">
+                <img src="images/product-img-2.png" alt="" class="product-img cover">
+            </div>
+            <div class="product-card">
+                <img src="images/product-img-3.png" alt="" class="product-img contain">
+            </div>
+            <div class="product-card">
+                <img src="images/product-img-4.png" alt="" class="product-img cover">
+            </div>
+            <img src="images/leaf.png" alt="" class="leaf-img">
+        </div>
+        
+    </div>
+</section>
+
+<section class="catalog">
+    <div class="container">
+        <div class="catalog__inner">
+            <div class="catalog__header">
+                <h2 class="catalog__title">Лидеры продаж и новинки</h2>
+                <div class="catalog__pagination">
+                    <a href="#!" class="show__more-link btn">СМОТРЕТЬ ВСЕ</a>
+                    <button class="catalog-arrow prev">←</button>
+                    <button class="catalog-arrow next">→</button>
+                </div>
+            </div>
+            <div class="catalog-list">
+                <div class="swiper catalog-swiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="catalog-item">
+                                <div class="catalog-item__top">
+                                <p class="catalog-badge">NEW</p>
+                                <img src="images/catalog.png" alt="" class="catalog-item__img">
+                                </div>
+                                <div class="catalog-item__bottom">
+                                <p class="catalog-category">Категория товара</p>
+                                <h3 class="catalog-name">Название товара, данные</h3>
+                                <a href="#" class="catalog-btn btn">Купить у партнёров</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="catalog-item">
+                                <div class="catalog-item__top">
+                                <p class="catalog-badge">NEW</p>
+                                <img src="images/catalog.png" alt="" class="catalog-item__img">
+                                </div>
+                                <div class="catalog-item__bottom">
+                                <p class="catalog-category">Категория товара</p>
+                                <h3 class="catalog-name">Название товара, данные</h3>
+                                <a href="#" class="catalog-btn btn">Купить у партнёров</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="catalog-item">
+                                <div class="catalog-item__top">
+                                <p class="catalog-badge">NEW</p>
+                                <img src="images/catalog.png" alt="" class="catalog-item__img">
+                                </div>
+                                <div class="catalog-item__bottom">
+                                <p class="catalog-category">Категория товара</p>
+                                <h3 class="catalog-name">Название товара, данные</h3>
+                                <a href="#" class="catalog-btn btn">Купить у партнёров</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="catalog-item">
+                                <div class="catalog-item__top">
+                                <p class="catalog-badge">NEW</p>
+                                <img src="images/catalog.png" alt="" class="catalog-item__img">
+                                </div>
+                                <div class="catalog-item__bottom">
+                                <p class="catalog-category">Категория товара</p>
+                                <h3 class="catalog-name">Название товара, данные</h3>
+                                <a href="#" class="catalog-btn btn">Купить у партнёров</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="catalog-item">
+                                <div class="catalog-item__top">
+                                <p class="catalog-badge">NEW</p>
+                                <img src="images/catalog.png" alt="" class="catalog-item__img">
+                                </div>
+                                <div class="catalog-item__bottom">
+                                <p class="catalog-category">Категория товара</p>
+                                <h3 class="catalog-name">Название товара, данные</h3>
+                                <a href="#" class="catalog-btn btn">Купить у партнёров</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="catalog-item">
+                                <div class="catalog-item__top">
+                                <p class="catalog-badge">NEW</p>
+                                <img src="images/catalog.png" alt="" class="catalog-item__img">
+                                </div>
+                                <div class="catalog-item__bottom">
+                                <p class="catalog-category">Категория товара</p>
+                                <h3 class="catalog-name">Название товара, данные</h3>
+                                <a href="#" class="catalog-btn btn">Купить у партнёров</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="catalog-item">
+                                <div class="catalog-item__top">
+                                <p class="catalog-badge">NEW</p>
+                                <img src="images/catalog.png" alt="" class="catalog-item__img">
+                                </div>
+                                <div class="catalog-item__bottom">
+                                <p class="catalog-category">Категория товара</p>
+                                <h3 class="catalog-name">Название товара, данные</h3>
+                                <a href="#" class="catalog-btn btn">Купить у партнёров</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="catalog-item">
+                                <div class="catalog-item__top">
+                                <p class="catalog-badge">NEW</p>
+                                <img src="images/catalog.png" alt="" class="catalog-item__img">
+                                </div>
+                                <div class="catalog-item__bottom">
+                                <p class="catalog-category">Категория товара</p>
+                                <h3 class="catalog-name">Название товара, данные</h3>
+                                <a href="#" class="catalog-btn btn">Купить у партнёров</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="stores">
+    <div class="container">
+        <div class="stores__top">
+            <div class="stores__top-text">
+                <h2 class="stores__title">
+                    Где купить
+                </h2>
+                <img src="images/stores-flower.png" alt="" class="stores__title-img">
+            </div>
+            <div class="stores__controllers">
+                <a href="#!" class="stores__btn">СМОТРЕТЬ ВСЕ</a>
+                <button class="stores-arrow prev">←</button>
+                <button class="stores-arrow next">→</button>
+            </div>
+        </div>
+        <div class="stores__list">
+            <div class="swiper stores-swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="stores__item">
+                            <a href="#!" class="store__link"><img src="images/store1.png" alt="" class="store__img"></a>
+                        </div>
+                    </div>
+                     <div class="swiper-slide">
+                        <div class="stores__item">
+                            <a href="#!" class="store__link"><img src="images/store2.png" alt="" class="store__img"></a>
+                        </div>
+                    </div>
+                     <div class="swiper-slide">
+                        <div class="stores__item">
+                            <a href="#!" class="store__link"><img src="images/store3.png" alt="" class="store__img"></a>
+                        </div>
+                    </div>
+                     <div class="swiper-slide">
+                        <div class="stores__item">
+                            <a href="#!" class="store__link"><img src="images/store4.png" alt="" class="store__img"></a>
+                        </div>
+                    </div>
+                     <div class="swiper-slide">
+                        <div class="stores__item">
+                            <a href="#!" class="store__link"><img src="images/store1.png" alt="" class="store__img"></a>
+                        </div>
+                    </div>
+                     <div class="swiper-slide">
+                        <div class="stores__item">
+                            <a href="#!" class="store__link"><img src="images/store2.png" alt="" class="store__img"></a>
+                        </div>
+                    </div>
+                     <div class="swiper-slide">
+                        <div class="stores__item">
+                            <a href="#!" class="store__link"><img src="images/store3.png" alt="" class="store__img"></a>
+                        </div>
+                    </div>
+                     <div class="swiper-slide">
+                        <div class="stores__item">
+                            <a href="#!" class="store__link"><img src="images/store4.png" alt="" class="store__img"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <img src="images/leaf2.png" alt="" class="stores-leaf">
+        </div>
+    </div>
+</section>
+
+<section class="brand__news">
+    <div class="container">
+        <div class="news__top">
+            <h2 class="news__title">
+                Будни бренда
+            </h2>
+            <div class="news__controllers">
+                <a href="#!" class="news__btn">СМОТРЕТЬ ВСЕ</a>
+                <button class="news-arrow prev">←</button>
+                <button class="news-arrow next">→</button>
+            </div>
+        </div>
+        <div class="news-cards">
+            <div class="swiper news-swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="news-card">
+                            <div class="image-block">
+                                <img src="images/news1.png" alt="" class="news__img">
+                            </div>
+                            <div class="text-block">
+                                <div class="news-category-and-date">
+                                    <span class="news-category">Категория</span><span> | </span><span class="news-date">Дата</span>  
+                                </div>
+                                <h3 class="news-title">
+                                    Название
+                                </h3>
+                                <p class="news-desc">Мини-описание. Это текст о компании. 
+                                Он необходим для дальнейшего продвижения </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="news-card">
+                            <div class="image-block">
+                                <img src="images/news2.png" alt="" class="news__img">
+                            </div>
+                            <div class="text-block">
+                                <div class="news-category-and-date">
+                                    <span class="news-category">Категория</span><span> | </span><span class="news-date">Дата</span>  
+                                </div>
+                                <h3 class="news-title">
+                                    Название
+                                </h3>
+                                <p class="news-desc">Мини-описание. Это текст о компании. 
+                                Он необходим для дальнейшего продвижения </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="news-card">
+                            <div class="image-block">
+                                <img src="images/news3.png" alt="" class="news__img">
+                            </div>
+                            <div class="text-block">
+                                <div class="news-category-and-date">
+                                    <span class="news-category">Категория</span><span> | </span><span class="news-date">Дата</span>  
+                                </div>
+                                <h3 class="news-title">
+                                    Название
+                                </h3>
+                                <p class="news-desc">Мини-описание. Это текст о компании. 
+                                Он необходим для дальнейшего продвижения </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="news-card">
+                            <div class="image-block">
+                                <img src="images/news1.png" alt="" class="news__img">
+                            </div>
+                            <div class="text-block">
+                                <div class="news-category-and-date">
+                                    <span class="news-category">Категория</span><span> | </span><span class="news-date">Дата</span>  
+                                </div>
+                                <h3 class="news-title">
+                                    Название
+                                </h3>
+                                <p class="news-desc">Мини-описание. Это текст о компании. 
+                                Он необходим для дальнейшего продвижения </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="news-card">
+                            <div class="image-block">
+                                <img src="images/news2.png" alt="" class="news__img">
+                            </div>
+                            <div class="text-block">
+                                <div class="news-category-and-date">
+                                    <span class="news-category">Категория</span><span> | </span><span class="news-date">Дата</span>  
+                                </div>
+                                <h3 class="news-title">
+                                    Название
+                                </h3>
+                                <p class="news-desc">Мини-описание. Это текст о компании. 
+                                Он необходим для дальнейшего продвижения </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="news-card">
+                            <div class="image-block">
+                                <img src="images/news3.png" alt="" class="news__img">
+                            </div>
+                            <div class="text-block">
+                                <div class="news-category-and-date">
+                                    <span class="news-category">Категория</span><span> | </span><span class="news-date">Дата</span>  
+                                </div>
+                                <h3 class="news-title">
+                                    Название
+                                </h3>
+                                <p class="news-desc">Мини-описание. Это текст о компании. 
+                                Он необходим для дальнейшего продвижения </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <img src="images/news-leaf.png" alt="" class="news-leaf">
+        </div>
+    </div>
+</section>
+
+<section class="email">
+    <div class="container">
+        <div class="email__inner">
+            <div class="email-text">
+                <h2 class="email-title">
+                    Подпишитесь на нашу 
+                    еженедельную рассылку!
+                </h2>
+                <p class="email-desc">Будьте в курсе всех новостей Алтайских трав!</p>
+                <div class="email__input-block">
+                    <input type="email" class="email-input" placeholder="Введите вашу почту">
+                    <svg class="email-icon" width="22" height="18" viewBox="0 0 22 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M4 3.94867L10.87 9.83867C10.94 9.89867 11.06 9.89867 11.13 9.83867L18 3.94867M2.2 0.888672H19.8C20.46 0.888672 21 1.42867 21 2.08867V14.4887C21 15.8087 19.92 16.8887 18.6 16.8887H3.4C2.08 16.8887 1 15.8087 1 14.4887V2.08867C1 1.42867 1.54 0.888672 2.2 0.888672Z" stroke="#939393" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </div>
+                <button class="email-btn btn" type="submit">Отправить</button>
+            </div>
+            <img src="images/sakura.png" alt="" class="sakura">
+            <img src="images/email-leaf.png" alt="" class="email-leaf">
+        </div>
+    </div>
+</section>
+<footer class="footer">
+    <div class="container">
+        <div class="footer__inner">
+            <div class="footer-left">
+                <a href="index.html"><img src="images/logo.png" alt="" class="footer-logo"></a>
+                <div class="footer-icons">
+                    <a href="#!"><img src="images/facebook.png" alt="" class="footer-icon"></a>
+                    <a href="#!"><img src="images/inst.png" alt="" class="footer-icon"></a>
+                    <a href="#!"><img src="images/telegram.png" alt="" class="footer-icon"></a>
+                    <a href="#!"><img src="images/whatsapp.png" alt="" class="footer-icon"></a>
+                </div>
+            </div>
+            <div class="footer-middle">
+                <div class="footer-column">
+                    <h3 class="footer-title">КАТАЛОГ</h3>
+                    <ul class="footer-list">
+                        <li>Спокойствие</li>
+                        <li>Поддержка работы ЖКТ</li>
+                        <li>Крепкий иммунитет</li>
+                        <li>Защита от вирусов, 
+                        гриппа и ОРВИ</li>
+                        <li>Здоровье сердца и сосудов</li>
+                        <li>Снижение и контроль веса</li>
+                        <li>Для детей</li>
+                        <li>Масла</li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4 class="footer-title">НАВИГАЦИЯ</h4>
+                     <ul class="footer-list">
+                        <li><a href="#">О компании</a></li>
+                        <li><a href="#">Где купить</a></li>
+                        <li><a href="#">Будни бренда</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-right">
+                <a href="#" class="footer-btn btn">Скачать каталог</a>
+            </div>
+        </div>
+    </div>
+</footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

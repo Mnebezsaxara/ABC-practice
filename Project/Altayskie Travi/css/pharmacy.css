@@ -1,0 +1,9 @@
+.stores {
+    margin-top: 50px;
+}
+.stores__list {
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}

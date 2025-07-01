@@ -1,0 +1,44 @@
+.brand__news {
+    margin-top: 50px;
+}
+.news__top {
+    position: relative;
+}
+.news-top-img-strawberry {
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    right: 20px;
+    bottom: -28px;
+    z-index: 20;
+}
+.news-top-img-berry {
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    right: -18px;
+    bottom: -52px;
+    z-index: 20;
+}
+.news-cards {
+    position: relative;
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+.news-bottom-img-berry {
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    left: -40px;
+    bottom: -60px;
+}
+.news-bottom-img-berry-mini {
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    left: -10px;
+    bottom: -80px;
+}
